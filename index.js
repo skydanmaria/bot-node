@@ -37,7 +37,7 @@ const bot = new TelegramBot(token, { polling: {
 // const upload = multer({storage});
 
 bot.on('message', async (msg) => {
-  //console.log('111212')
+  console.log('111212')
   const chatId = msg.chat.id;
   const text = msg.text;
 
